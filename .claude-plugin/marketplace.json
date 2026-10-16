@@ -1,0 +1,21 @@
+{
+  "name": "gooduxonly",
+  "owner": {
+    "name": "Legit Design Studio"
+  },
+  "metadata": {
+    "description": "Evidence-based UX audit, critique and design skill for Claude",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "gooduxonly",
+      "description": "UX audits, critiques and flow design grounded in NN/g heuristics, Laws of UX, Growth.Design product psychology and Appcues GoodUX onboarding patterns",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/gooduxonly"
+      ]
+    }
+  ]
+}
